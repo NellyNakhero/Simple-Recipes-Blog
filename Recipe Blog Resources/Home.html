@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ReCiPe WoRlD</title>
+</head>
+<style type="text/css">
+	body{ background-color: #FFF0F5/*#556B2F*/;
+	      font-style: Goudy Old Style;
+	      font-size: 30px;
+	    }
+	h2{ font-style: Harrington; }
+	    div ul li{ list-style-type: none;
+	               display: inline;
+	               margin-left: 100px;
+	               text-align: top; }
+	    div ul li a:hover {
+                  background-color: orange;
+                  font-size-adjust: 0.82;
+                   }
+        img#logo{border-radius: 50px;
+                 border-style: groove;}
+        div ul li a{ text-decoration: none; 
+                     color: black; }
+        div.popular {
+                     margin: 5px;
+                     border: 1px solid #ccc;
+                     float: left;
+                     width: 300px;
+                     }
+        div.popular a{
+        	          text-decoration: none;
+        	          color: black;
+                      }
+         div.recap {
+                   padding: 15px;
+                   text-align: center;
+                  }
+        div .footer {
+        	text-align: center;
+        	width: 100%;
+        	background-color: black;
+        	clear: left;
+        	border: 1px solid black;
+        }
+        h2{ text-decoration: underline; }
+
+        .dropbtn {
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: #FFF0F5;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown_content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown_content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown_content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+       
+       
+</style>
+<!--<body style="background-color: 	#7FFFD4;">-->
+<!--<body style="background-image: url(background.PNG); background-repeat: no-repeat;">-->
+<!--<body style="background-color:#696969">-->
+<body>
+
+	<div style="clear: left; text-align: center; border: 3px solid black; border-radius: 50px;">
+		<ul>
+			<div class="dropdown">
+		<li class="dropbtn" style="margin-left: 1px; margin-top: 1px;"><a href="#" target="_blank"><img src="menu.PNG" style="border-radius: 15px;"> Menu </a></li>
+                <div class="dropdown_content">
+                	<a href="#">Breakfast</a>
+                	<a href="#">Lunch</a>
+                	<a href="#">Dinner</a>
+                	<a href="#">Fast Foods</a>
+                </div>
+ 	        </div>
+		<li style="margin-right:400px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<img id="logo" src="logo3.PNG" width="140" height="90"></li>
+		<li><a href="#" target="_blank"> Q search...</a></li>
+		<li style="margin-left: 10px;"><a href="#" target="_blank"><input type="button" name="sign_in" onclick="#" value="SIGN IN"></a></li>
+		<li style="margin-left: 10px"><a href="Login page.htm" target="_blank"><input type="button" name="log_in" onclick="Login page.htm" value="LOG IN"></a></li>
+	</div>
+	<h1>RECIPE UNIVERSE
+	<span style="text-align: right; margin-left: 500px;"  >
+		<a href="#"><img src="Facebook.PNG" title="Facebook" width="50"></a>
+		<a href="#"><img src="Email.PNG" title="Email" width="50"></a>
+		<a href="#"><img src="ttwitter.PNG" title="ttwitter" width="50" style="border-radius:50px;"></a>
+		<a href="#"><img src="phone.jpg" title="phone" width="50" height="40"  style="border-radius:50px;"></a>
+		<a href="#"><img src="Linkedin.PNG" title="Linkedin" width="70"></a>
+	</span></h1>
+
+	<h2>Popular Recipes</h2>
+	<div id="Popular_Recipes_Group">
+	<!--RECIPE FOR POTATO SOUP-->
+<div class="popular">
+  <a target="_blank" href="TomatoSoup.html">
+    <img src="TomatoSoup.PNG" alt="TomatoSoup" width="300" height="200">
+    Tomato Soup
+  </a>
+  <div class="recap">
+  	<table> <tr><th>Time</th><th>Serves</th></tr>
+  	        <tr><td>30</td><td>4</td></tr></table>
+  </div>
+</div>
+
+<!--RECIPE FOR JACKET POTATOES-->
+<div class="popular">
+  <a target="_blank" href="JacketPotatoes.html">
+    <img src="jacketpotatoes.PNG" alt="jacketpotatoes" width="300" height="200">
+    Jacket Potatoes
+  </a>
+  <div class="recap">
+  	<table> <tr><th>Time</th><th>Serves</th></tr>
+  	        <tr><td>30</td><td>4</td></tr></table>
+  </div>
+</div>
+
+<!-- RECIPE FOR Vegetable Ratatouille-->
+<div class="popular">
+  <a target="_blank" href="Vegetable Ratatouille.html">
+    <img src="Vegetable Ratatouille.PNG" alt="Vegetable Ratatouille" width="300" height="200">
+    Vegetable Ratatouille
+  </a>
+  <div class="recap">
+  	<table> <tr><th>Time</th><th>Serves</th></tr>
+  	        <tr><td> 15 </td><td> 4 </td></tr></table>
+  </div>
+</div>
+
+<!--RECIPE FOR Tomato Sauce -->
+<div class="popular">
+  <a target="_blank" href="Tomato Sauce.html">
+    <img src="Tomato Sauce.PNG" alt="Tomato Sauce " width="300" height="200">
+    Tomato Sauce 
+  </a>
+  <div class="recap">
+  	<table> <tr><th>Time</th><th>Serves</th></tr>
+  	        <tr><td>30</td><td>4</td></tr></table>
+  </div>
+</div>
+
+<!--RECIPE FOR Mushroom and Saffron Risotto -->
+<div class="popular">
+  <a target="_blank" href="Mushroom and Saffron Risotto.html">
+    <img src="Mushroom and Saffron Risotto.PNG" alt="Mushroom and Saffron Risotto " width="300" height="200">
+    Mushroom and Saffron Risotto 
+  </a>
+  <div class="recap">
+  	<table> <tr><th>Time</th><th>Serves</th></tr>
+  	        <tr><td>40</td><td>4</td></tr></table>
+  </div>
+</div>
+
+<!--RECIPE FOR Cheese and Mushroom Toast-->
+<div class="popular">
+  <a target="_blank" href="#">
+    <img src="Cheese and Mushroom Toast.PNG" alt="Cheese and Mushroom Toast" width="300" height="200">
+    Cheese and Mushroom Toast
+  </a>
+  <div class="recap">
+  	<table> <tr><th>Time</th><th>Serves</th></tr>
+  	        <tr><td>30</td><td>4</td></tr></table>
+  </div>
+</div>
+
+<!--RECIPE FOR Asparagus and Cheese Soup-->
+<div class="popular">
+  <a target="_blank" href="#">
+    <img src="Asparagus and Cheese Soup.PNG" alt="Asparagus and Cheese Soup" width="300" height="200">
+    Asparagus and Cheese Soup
+  </a>
+  <div class="recap">
+  	<table> <tr><th>Time</th><th>Serves</th></tr>
+  	        <tr><td>50</td><td>4</td></tr></table>
+  </div>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+	<div class="footer" style="clear: left; text-align: center; border: 3px solid black; border-radius: 70px;">
+	
+		<p>About us&nbsp;&nbsp;&nbsp;Contact us&nbsp;&nbsp;&nbsp;Cookies&nbsp;&nbsp;&nbsp;Credits&nbsp;&nbsp;&nbsp;Terms of use</p>
+    	<img src="logo1.PNG" style="border-radius:20px;">
+    	<span>Recipe Universe</span>
+    	&copy;
+    	&trade;
+    </div>
+
+</body>
+</html>
